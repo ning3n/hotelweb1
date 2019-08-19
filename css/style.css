@@ -1,0 +1,186 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    text-align: justify;
+    font-size: .55rem;
+}
+
+.mamelo{
+    display:none;
+}
+
+h1{
+    font-size: 1rem;
+} 
+
+h2{
+    font-size: .75rem;
+}
+
+h3, h4, h5{
+    font-size: .5rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.allvh{
+	min-height: 10vh;
+
+}
+
+
+
+@media (min-width: 48em){
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #fafafa;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    } 
+    
+    h2{
+        font-size: 1.75rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+    
+    h4, h5{
+        font-size: .5rem;
+    }
+    
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 1.7em;
+        color: #999;
+    }
+
+    .alv1{
+        display:none;
+    }
+    
+    a,
+    a:hover,
+    a:focus {
+        color: rgb(47, 175, 197);
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+    .navbar {
+        padding: 15px 10px;
+        background: #fff;
+        border: none;
+        border-radius: 0;
+        margin-bottom: 40px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+    }
+    
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
+
+    .mamelo{
+        display:block;
+    }
+
+    #content {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .allvh{
+        min-height: 10vh;
+    
+    }
+
+    .articulo1{
+        background-color: aquamarine; 
+    }
+
+}
+
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.articulo1{
+    background-color: rgb(55, 201, 238);   
+    color: #FFF;     
+}
+
